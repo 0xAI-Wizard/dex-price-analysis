@@ -6,6 +6,16 @@ import logging
 from datetime import datetime
 import os
 from dotenv import load_dotenv
+from config import (
+    TOKENS,
+    NETWORKS,
+    DEXES,
+    BASE_TOKENS,
+    BASE_TOKEN_ADDRESSES,
+    RATE_LIMIT_CALLS,
+    RATE_LIMIT_WAIT,
+    TVL_DATA,
+)
 
 # Load environment variables from .env file
 load_dotenv()
@@ -16,21 +26,6 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# Step 1: Configuration
-TOKENS = ["wbtc", "lbtc", "tether"]  # wBTC, LBTC, USDT (CoinGecko IDs)
-NETWORKS = ["ethereum", "binance-smart-chain", "polygon"]
-DEXES = {
-    "ethereum": ["uniswap_v2", "sushiswap"],
-    "binance-smart-chain": ["pancakeswap_v2"],
-    "polygon": ["quickswap"],
-}
-BASE_TOKENS = {"ethereum": "weth", "binance-smart-chain": "wbnb", "polygon": "wmatic"}
-BASE_TOKEN_ADDRESSES = {
-    "ethereum": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",  # WETH
-    "binance-smart-chain": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",  # WBNB
-    "polygon": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",  # WMATIC
-}
-
 # Load API key from environment variables
 API_KEY = os.getenv("COINGECKO_API_KEY")
 HEADERS = {"x-cg-demo-api-key": API_KEY}
@@ -40,10 +35,6 @@ BASE_URL = "https://api.coingecko.com/api/v3"
 if not API_KEY:
     logger.error("API key not found. Please set COINGECKO_API_KEY in your .env file.")
     raise ValueError("API key not found")
-
-# Rate limiting configuration
-RATE_LIMIT_CALLS = 30  # Maximum calls per minute
-RATE_LIMIT_WAIT = 2  # Seconds to wait between calls
 
 
 class PriceAnalysisError(Exception):
@@ -84,7 +75,7 @@ def get_token_address(token: str, network: str) -> Optional[str]:
     Fetch token contract address for a given network
 
     Args:
-        token: Token ID (e.g., 'wbtc')
+        token: Token ID (e.g., 'wrapped-bitcoin')
         network: Network ID (e.g., 'ethereum')
 
     Returns:
@@ -93,9 +84,23 @@ def get_token_address(token: str, network: str) -> Optional[str]:
     logger.info(f"Fetching {token} address for {network}")
     time.sleep(RATE_LIMIT_WAIT)  # Rate limiting
 
-    response = requests.get(f"{BASE_URL}/coins/{token}", headers=HEADERS)
-    data = handle_api_response(response, f"get_token_address({token}, {network})")
-    return data.get("platforms", {}).get(network)
+    try:
+        response = requests.get(f"{BASE_URL}/coins/{token}", headers=HEADERS)
+        data = handle_api_response(response, f"get_token_address({token}, {network})")
+
+        if not data or "platforms" not in data:
+            logger.warning(f"No platform data found for token {token}")
+            return None
+
+        address = data.get("platforms", {}).get(network)
+        if not address:
+            logger.warning(f"No contract address found for {token} on {network}")
+            return None
+
+        return address
+    except requests.exceptions.RequestException as e:
+        logger.error(f"Failed to fetch token address: {str(e)}")
+        return None
 
 
 def get_base_token_prices() -> Dict[str, float]:
