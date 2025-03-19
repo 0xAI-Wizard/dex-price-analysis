@@ -1,0 +1,360 @@
+2025-03-19 20:46:30,632 - INFO - Starting price analysis
+2025-03-19 20:46:30,632 - INFO - Fetching USD price for wrapped-bitcoin
+2025-03-19 20:46:33,262 - INFO - Fetching wrapped-bitcoin price from uniswap-v3 on ethereum
+2025-03-19 20:46:33,263 - INFO - Fetching contract address for wrapped-bitcoin on ethereum
+2025-03-19 20:46:35,574 - INFO - Fetching onchain price for token 0x2260fac5e5542a773aa44fbcfedf7c193bc2c599 on ethereum
+2025-03-19 20:46:38,330 - WARNING - Could not get price for wrapped-bitcoin on ethereum/uniswap-v3 through available endpoints
+2025-03-19 20:46:38,330 - INFO - Fetching wrapped-bitcoin price from balancer on ethereum
+2025-03-19 20:46:38,330 - INFO - Fetching onchain price for token 0x2260fac5e5542a773aa44fbcfedf7c193bc2c599 on ethereum
+2025-03-19 20:46:38,331 - WARNING - Could not get price for wrapped-bitcoin on ethereum/balancer through available endpoints
+2025-03-19 20:46:38,331 - INFO - Fetching wrapped-bitcoin price from sushiswap on ethereum
+2025-03-19 20:46:38,332 - INFO - Fetching onchain price for token 0x2260fac5e5542a773aa44fbcfedf7c193bc2c599 on ethereum
+2025-03-19 20:46:38,332 - WARNING - Could not get price for wrapped-bitcoin on ethereum/sushiswap through available endpoints
+2025-03-19 20:46:38,332 - INFO - Fetching wrapped-bitcoin price from gmx on arbitrum
+2025-03-19 20:46:38,333 - INFO - Fetching contract address for wrapped-bitcoin on arbitrum
+2025-03-19 20:46:38,333 - WARNING - No contract address found for wrapped-bitcoin on arbitrum
+2025-03-19 20:46:38,333 - INFO - Fetching wrapped-bitcoin price from uniswap-v3 on arbitrum
+2025-03-19 20:46:38,334 - INFO - Fetching wrapped-bitcoin price from camelot on arbitrum
+2025-03-19 20:46:38,334 - INFO - Fetching wrapped-bitcoin price from velodrome on optimism
+2025-03-19 20:46:38,334 - INFO - Fetching contract address for wrapped-bitcoin on optimism
+2025-03-19 20:46:38,335 - WARNING - No contract address found for wrapped-bitcoin on optimism
+2025-03-19 20:46:38,335 - INFO - Fetching wrapped-bitcoin price from uniswap-v3 on optimism
+2025-03-19 20:46:38,335 - INFO - Fetching wrapped-bitcoin price from synthetix on optimism
+2025-03-19 20:46:38,335 - INFO - Fetching wrapped-bitcoin price from uniswap-v3 on base
+2025-03-19 20:46:38,336 - INFO - Fetching contract address for wrapped-bitcoin on base
+2025-03-19 20:46:38,336 - WARNING - No contract address found for wrapped-bitcoin on base
+2025-03-19 20:46:38,337 - INFO - Fetching wrapped-bitcoin price from aerodrome on base
+2025-03-19 20:46:38,337 - INFO - Fetching wrapped-bitcoin price from leetswap on base
+2025-03-19 20:46:38,337 - INFO - Fetching wrapped-bitcoin price from uniswap-v3 on bob-network
+2025-03-19 20:46:38,338 - INFO - Fetching contract address for wrapped-bitcoin on bob-network
+2025-03-19 20:46:38,338 - WARNING - No contract address found for wrapped-bitcoin on bob-network
+2025-03-19 20:46:38,338 - INFO - Fetching USD price for lombard-staked-btc
+2025-03-19 20:46:40,586 - INFO - Fetching lombard-staked-btc price from uniswap-v3 on ethereum
+2025-03-19 20:46:40,587 - INFO - Fetching contract address for lombard-staked-btc on ethereum
+2025-03-19 20:46:42,946 - INFO - Fetching onchain price for token 0x8236a87084f8b84306f72007f36f2618a5634494 on ethereum
+2025-03-19 20:46:45,188 - WARNING - Could not get price for lombard-staked-btc on ethereum/uniswap-v3 through available endpoints
+2025-03-19 20:46:45,188 - INFO - Fetching lombard-staked-btc price from balancer on ethereum
+2025-03-19 20:46:45,188 - INFO - Fetching onchain price for token 0x8236a87084f8b84306f72007f36f2618a5634494 on ethereum
+2025-03-19 20:46:45,189 - WARNING - Could not get price for lombard-staked-btc on ethereum/balancer through available endpoints
+2025-03-19 20:46:45,189 - INFO - Fetching lombard-staked-btc price from sushiswap on ethereum
+2025-03-19 20:46:45,189 - INFO - Fetching onchain price for token 0x8236a87084f8b84306f72007f36f2618a5634494 on ethereum
+2025-03-19 20:46:45,189 - WARNING - Could not get price for lombard-staked-btc on ethereum/sushiswap through available endpoints
+2025-03-19 20:46:45,189 - INFO - Fetching lombard-staked-btc price from gmx on arbitrum
+2025-03-19 20:46:45,190 - INFO - Fetching contract address for lombard-staked-btc on arbitrum
+2025-03-19 20:46:45,192 - WARNING - No contract address found for lombard-staked-btc on arbitrum
+2025-03-19 20:46:45,193 - INFO - Fetching lombard-staked-btc price from uniswap-v3 on arbitrum
+2025-03-19 20:46:45,193 - INFO - Fetching lombard-staked-btc price from camelot on arbitrum
+2025-03-19 20:46:45,193 - INFO - Fetching lombard-staked-btc price from velodrome on optimism
+2025-03-19 20:46:45,193 - INFO - Fetching contract address for lombard-staked-btc on optimism
+2025-03-19 20:46:45,193 - WARNING - No contract address found for lombard-staked-btc on optimism
+2025-03-19 20:46:45,194 - INFO - Fetching lombard-staked-btc price from uniswap-v3 on optimism
+2025-03-19 20:46:45,194 - INFO - Fetching lombard-staked-btc price from synthetix on optimism
+2025-03-19 20:46:45,194 - INFO - Fetching lombard-staked-btc price from uniswap-v3 on base
+2025-03-19 20:46:45,194 - INFO - Fetching contract address for lombard-staked-btc on base
+2025-03-19 20:46:45,194 - INFO - Fetching onchain price for token 0xecac9c5f704e954931349da37f60e39f515c11c1 on base
+2025-03-19 20:46:47,521 - WARNING - Could not get price for lombard-staked-btc on base/uniswap-v3 through available endpoints
+2025-03-19 20:46:47,521 - INFO - Fetching lombard-staked-btc price from aerodrome on base
+2025-03-19 20:46:47,522 - INFO - Fetching onchain price for token 0xecac9c5f704e954931349da37f60e39f515c11c1 on base
+2025-03-19 20:46:47,522 - WARNING - Could not get price for lombard-staked-btc on base/aerodrome through available endpoints
+2025-03-19 20:46:47,523 - INFO - Fetching lombard-staked-btc price from leetswap on base
+2025-03-19 20:46:47,523 - INFO - Fetching onchain price for token 0xecac9c5f704e954931349da37f60e39f515c11c1 on base
+2025-03-19 20:46:47,523 - WARNING - Could not get price for lombard-staked-btc on base/leetswap through available endpoints
+2025-03-19 20:46:47,524 - INFO - Fetching lombard-staked-btc price from uniswap-v3 on bob-network
+2025-03-19 20:46:47,524 - INFO - Fetching contract address for lombard-staked-btc on bob-network
+2025-03-19 20:46:47,524 - WARNING - No contract address found for lombard-staked-btc on bob-network
+2025-03-19 20:46:47,525 - INFO - Fetching USD price for ethereum
+2025-03-19 20:46:49,762 - INFO - Fetching ethereum price from uniswap-v3 on ethereum
+2025-03-19 20:46:49,764 - INFO - Fetching contract address for ethereum on ethereum
+2025-03-19 20:46:52,014 - WARNING - No contract address found for ethereum on ethereum
+2025-03-19 20:46:52,014 - INFO - Fetching ethereum price from balancer on ethereum
+2025-03-19 20:46:52,015 - INFO - Fetching ethereum price from sushiswap on ethereum
+2025-03-19 20:46:52,015 - INFO - Fetching ethereum price from gmx on arbitrum
+2025-03-19 20:46:52,015 - INFO - Fetching contract address for ethereum on arbitrum
+2025-03-19 20:46:52,016 - WARNING - No contract address found for ethereum on arbitrum
+2025-03-19 20:46:52,016 - INFO - Fetching ethereum price from uniswap-v3 on arbitrum
+2025-03-19 20:46:52,016 - INFO - Fetching ethereum price from camelot on arbitrum
+2025-03-19 20:46:52,017 - INFO - Fetching ethereum price from velodrome on optimism
+2025-03-19 20:46:52,017 - INFO - Fetching contract address for ethereum on optimism
+2025-03-19 20:46:52,017 - WARNING - No contract address found for ethereum on optimism
+2025-03-19 20:46:52,017 - INFO - Fetching ethereum price from uniswap-v3 on optimism
+2025-03-19 20:46:52,017 - INFO - Fetching ethereum price from synthetix on optimism
+2025-03-19 20:46:52,018 - INFO - Fetching ethereum price from uniswap-v3 on base
+2025-03-19 20:46:52,018 - INFO - Fetching contract address for ethereum on base
+2025-03-19 20:46:52,018 - WARNING - No contract address found for ethereum on base
+2025-03-19 20:46:52,018 - INFO - Fetching ethereum price from aerodrome on base
+2025-03-19 20:46:52,018 - INFO - Fetching ethereum price from leetswap on base
+2025-03-19 20:46:52,019 - INFO - Fetching ethereum price from uniswap-v3 on bob-network
+2025-03-19 20:46:52,019 - INFO - Fetching contract address for ethereum on bob-network
+2025-03-19 20:46:52,019 - WARNING - No contract address found for ethereum on bob-network
+2025-03-19 20:46:52,019 - INFO - Fetching USD price for tether
+2025-03-19 20:46:54,218 - INFO - Fetching tether price from uniswap-v3 on ethereum
+2025-03-19 20:46:54,218 - INFO - Fetching contract address for tether on ethereum
+2025-03-19 20:46:56,600 - INFO - Fetching onchain price for token 0xdac17f958d2ee523a2206206994597c13d831ec7 on ethereum
+2025-03-19 20:46:59,030 - WARNING - Could not get price for tether on ethereum/uniswap-v3 through available endpoints
+2025-03-19 20:46:59,030 - INFO - Fetching tether price from balancer on ethereum
+2025-03-19 20:46:59,031 - INFO - Fetching onchain price for token 0xdac17f958d2ee523a2206206994597c13d831ec7 on ethereum
+2025-03-19 20:46:59,031 - WARNING - Could not get price for tether on ethereum/balancer through available endpoints
+2025-03-19 20:46:59,031 - INFO - Fetching tether price from sushiswap on ethereum
+2025-03-19 20:46:59,032 - INFO - Fetching onchain price for token 0xdac17f958d2ee523a2206206994597c13d831ec7 on ethereum
+2025-03-19 20:46:59,032 - WARNING - Could not get price for tether on ethereum/sushiswap through available endpoints
+2025-03-19 20:46:59,033 - INFO - Fetching tether price from gmx on arbitrum
+2025-03-19 20:46:59,033 - INFO - Fetching contract address for tether on arbitrum
+2025-03-19 20:46:59,033 - WARNING - No contract address found for tether on arbitrum
+2025-03-19 20:46:59,033 - INFO - Fetching tether price from uniswap-v3 on arbitrum
+2025-03-19 20:46:59,034 - INFO - Fetching tether price from camelot on arbitrum
+2025-03-19 20:46:59,034 - INFO - Fetching tether price from velodrome on optimism
+2025-03-19 20:46:59,035 - INFO - Fetching contract address for tether on optimism
+2025-03-19 20:46:59,035 - WARNING - No contract address found for tether on optimism
+2025-03-19 20:46:59,035 - INFO - Fetching tether price from uniswap-v3 on optimism
+2025-03-19 20:46:59,036 - INFO - Fetching tether price from synthetix on optimism
+2025-03-19 20:46:59,036 - INFO - Fetching tether price from uniswap-v3 on base
+2025-03-19 20:46:59,036 - INFO - Fetching contract address for tether on base
+2025-03-19 20:46:59,037 - WARNING - No contract address found for tether on base
+2025-03-19 20:46:59,037 - INFO - Fetching tether price from aerodrome on base
+2025-03-19 20:46:59,038 - INFO - Fetching tether price from leetswap on base
+2025-03-19 20:46:59,038 - INFO - Fetching tether price from uniswap-v3 on bob-network
+2025-03-19 20:46:59,039 - INFO - Fetching contract address for tether on bob-network
+2025-03-19 20:46:59,039 - WARNING - No contract address found for tether on bob-network
+2025-03-19 20:46:59,039 - INFO - Fetching USD price for usd-coin
+2025-03-19 20:47:01,289 - INFO - Fetching usd-coin price from uniswap-v3 on ethereum
+2025-03-19 20:47:01,289 - INFO - Fetching contract address for usd-coin on ethereum
+2025-03-19 20:47:04,138 - INFO - Fetching onchain price for token 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 on ethereum
+2025-03-19 20:47:06,793 - WARNING - Could not get price for usd-coin on ethereum/uniswap-v3 through available endpoints
+2025-03-19 20:47:06,793 - INFO - Fetching usd-coin price from balancer on ethereum
+2025-03-19 20:47:06,794 - INFO - Fetching onchain price for token 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 on ethereum
+2025-03-19 20:47:06,794 - WARNING - Could not get price for usd-coin on ethereum/balancer through available endpoints
+2025-03-19 20:47:06,794 - INFO - Fetching usd-coin price from sushiswap on ethereum
+2025-03-19 20:47:06,795 - INFO - Fetching onchain price for token 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 on ethereum
+2025-03-19 20:47:06,795 - WARNING - Could not get price for usd-coin on ethereum/sushiswap through available endpoints
+2025-03-19 20:47:06,795 - INFO - Fetching usd-coin price from gmx on arbitrum
+2025-03-19 20:47:06,795 - INFO - Fetching contract address for usd-coin on arbitrum
+2025-03-19 20:47:06,796 - WARNING - No contract address found for usd-coin on arbitrum
+2025-03-19 20:47:06,796 - INFO - Fetching usd-coin price from uniswap-v3 on arbitrum
+2025-03-19 20:47:06,797 - INFO - Fetching usd-coin price from camelot on arbitrum
+2025-03-19 20:47:06,797 - INFO - Fetching usd-coin price from velodrome on optimism
+2025-03-19 20:47:06,798 - INFO - Fetching contract address for usd-coin on optimism
+2025-03-19 20:47:06,798 - WARNING - No contract address found for usd-coin on optimism
+2025-03-19 20:47:06,798 - INFO - Fetching usd-coin price from uniswap-v3 on optimism
+2025-03-19 20:47:06,799 - INFO - Fetching usd-coin price from synthetix on optimism
+2025-03-19 20:47:06,799 - INFO - Fetching usd-coin price from uniswap-v3 on base
+2025-03-19 20:47:06,800 - INFO - Fetching contract address for usd-coin on base
+2025-03-19 20:47:06,800 - INFO - Fetching onchain price for token 0x833589fcd6edb6e08f4c7c32d4f71b54bda02913 on base
+2025-03-19 20:47:09,042 - WARNING - Could not get price for usd-coin on base/uniswap-v3 through available endpoints
+2025-03-19 20:47:09,042 - INFO - Fetching usd-coin price from aerodrome on base
+2025-03-19 20:47:09,043 - INFO - Fetching onchain price for token 0x833589fcd6edb6e08f4c7c32d4f71b54bda02913 on base
+2025-03-19 20:47:09,043 - WARNING - Could not get price for usd-coin on base/aerodrome through available endpoints
+2025-03-19 20:47:09,044 - INFO - Fetching usd-coin price from leetswap on base
+2025-03-19 20:47:09,044 - INFO - Fetching onchain price for token 0x833589fcd6edb6e08f4c7c32d4f71b54bda02913 on base
+2025-03-19 20:47:09,044 - WARNING - Could not get price for usd-coin on base/leetswap through available endpoints
+2025-03-19 20:47:09,045 - INFO - Fetching usd-coin price from uniswap-v3 on bob-network
+2025-03-19 20:47:09,045 - INFO - Fetching contract address for usd-coin on bob-network
+2025-03-19 20:47:09,045 - WARNING - No contract address found for usd-coin on bob-network
+2025-03-19 20:47:09,054 - WARNING - No price data found
+2025-03-19 20:47:09,171 - INFO - Saved 16 API responses to cache
+2025-03-19 21:12:02,664 - INFO - Starting price analysis
+2025-03-19 21:12:02,664 - INFO - Fetching USD price for wrapped-bitcoin
+2025-03-19 21:12:04,990 - INFO - Fetching wrapped-bitcoin price from uniswap-v3 on ethereum
+2025-03-19 21:12:04,990 - INFO - Fetching contract address for wrapped-bitcoin on ethereum
+2025-03-19 21:12:07,402 - INFO - Fetching onchain price for token 0x2260fac5e5542a773aa44fbcfedf7c193bc2c599 on ethereum
+2025-03-19 21:12:10,274 - WARNING - Could not get price for wrapped-bitcoin on ethereum/uniswap-v3 through available endpoints
+2025-03-19 21:12:10,275 - INFO - Fetching wrapped-bitcoin price from balancer on ethereum
+2025-03-19 21:12:10,275 - INFO - Fetching onchain price for token 0x2260fac5e5542a773aa44fbcfedf7c193bc2c599 on ethereum
+2025-03-19 21:12:10,276 - WARNING - Could not get price for wrapped-bitcoin on ethereum/balancer through available endpoints
+2025-03-19 21:12:10,276 - INFO - Fetching wrapped-bitcoin price from sushiswap on ethereum
+2025-03-19 21:12:10,277 - INFO - Fetching onchain price for token 0x2260fac5e5542a773aa44fbcfedf7c193bc2c599 on ethereum
+2025-03-19 21:12:10,277 - WARNING - Could not get price for wrapped-bitcoin on ethereum/sushiswap through available endpoints
+2025-03-19 21:12:10,277 - INFO - Fetching wrapped-bitcoin price from gmx on arbitrum
+2025-03-19 21:12:10,278 - INFO - Fetching contract address for wrapped-bitcoin on arbitrum
+2025-03-19 21:12:10,278 - WARNING - No contract address found for wrapped-bitcoin on arbitrum
+2025-03-19 21:12:10,278 - INFO - Fetching wrapped-bitcoin price from uniswap-v3 on arbitrum
+2025-03-19 21:12:10,279 - INFO - Fetching wrapped-bitcoin price from camelot on arbitrum
+2025-03-19 21:12:10,279 - INFO - Fetching wrapped-bitcoin price from velodrome on optimism
+2025-03-19 21:12:10,279 - INFO - Fetching contract address for wrapped-bitcoin on optimism
+2025-03-19 21:12:10,280 - WARNING - No contract address found for wrapped-bitcoin on optimism
+2025-03-19 21:12:10,280 - INFO - Fetching wrapped-bitcoin price from uniswap-v3 on optimism
+2025-03-19 21:12:10,280 - INFO - Fetching wrapped-bitcoin price from synthetix on optimism
+2025-03-19 21:12:10,281 - INFO - Fetching wrapped-bitcoin price from uniswap-v3 on base
+2025-03-19 21:12:10,281 - INFO - Fetching contract address for wrapped-bitcoin on base
+2025-03-19 21:12:10,281 - WARNING - No contract address found for wrapped-bitcoin on base
+2025-03-19 21:12:10,281 - INFO - Fetching wrapped-bitcoin price from aerodrome on base
+2025-03-19 21:12:10,282 - INFO - Fetching wrapped-bitcoin price from leetswap on base
+2025-03-19 21:12:10,282 - INFO - Fetching wrapped-bitcoin price from uniswap-v3 on bob-network
+2025-03-19 21:12:10,282 - INFO - Fetching contract address for wrapped-bitcoin on bob-network
+2025-03-19 21:12:10,283 - WARNING - No contract address found for wrapped-bitcoin on bob-network
+2025-03-19 21:12:10,283 - INFO - Fetching USD price for lombard-staked-btc
+2025-03-19 21:12:12,655 - INFO - Fetching lombard-staked-btc price from uniswap-v3 on ethereum
+2025-03-19 21:12:12,656 - INFO - Fetching contract address for lombard-staked-btc on ethereum
+2025-03-19 21:12:15,047 - INFO - Fetching onchain price for token 0x8236a87084f8b84306f72007f36f2618a5634494 on ethereum
+2025-03-19 21:12:17,478 - WARNING - Could not get price for lombard-staked-btc on ethereum/uniswap-v3 through available endpoints
+2025-03-19 21:12:17,478 - INFO - Fetching lombard-staked-btc price from balancer on ethereum
+2025-03-19 21:12:17,479 - INFO - Fetching onchain price for token 0x8236a87084f8b84306f72007f36f2618a5634494 on ethereum
+2025-03-19 21:12:17,479 - WARNING - Could not get price for lombard-staked-btc on ethereum/balancer through available endpoints
+2025-03-19 21:12:17,479 - INFO - Fetching lombard-staked-btc price from sushiswap on ethereum
+2025-03-19 21:12:17,479 - INFO - Fetching onchain price for token 0x8236a87084f8b84306f72007f36f2618a5634494 on ethereum
+2025-03-19 21:12:17,480 - WARNING - Could not get price for lombard-staked-btc on ethereum/sushiswap through available endpoints
+2025-03-19 21:12:17,480 - INFO - Fetching lombard-staked-btc price from gmx on arbitrum
+2025-03-19 21:12:17,480 - INFO - Fetching contract address for lombard-staked-btc on arbitrum
+2025-03-19 21:12:17,480 - WARNING - No contract address found for lombard-staked-btc on arbitrum
+2025-03-19 21:12:17,481 - INFO - Fetching lombard-staked-btc price from uniswap-v3 on arbitrum
+2025-03-19 21:12:17,481 - INFO - Fetching lombard-staked-btc price from camelot on arbitrum
+2025-03-19 21:12:17,481 - INFO - Fetching lombard-staked-btc price from velodrome on optimism
+2025-03-19 21:12:17,481 - INFO - Fetching contract address for lombard-staked-btc on optimism
+2025-03-19 21:12:17,482 - WARNING - No contract address found for lombard-staked-btc on optimism
+2025-03-19 21:12:17,482 - INFO - Fetching lombard-staked-btc price from uniswap-v3 on optimism
+2025-03-19 21:12:17,482 - INFO - Fetching lombard-staked-btc price from synthetix on optimism
+2025-03-19 21:12:17,482 - INFO - Fetching lombard-staked-btc price from uniswap-v3 on base
+2025-03-19 21:12:17,482 - INFO - Fetching contract address for lombard-staked-btc on base
+2025-03-19 21:12:17,482 - INFO - Fetching onchain price for token 0xecac9c5f704e954931349da37f60e39f515c11c1 on base
+2025-03-19 21:25:22,317 - INFO - Starting price analysis
+2025-03-19 21:25:22,317 - INFO - Fetching USD price for wrapped-bitcoin
+2025-03-19 21:25:24,678 - INFO - Fetching wrapped-bitcoin price from uniswap-v3 on ethereum
+2025-03-19 21:25:24,679 - INFO - Fetching contract address for wrapped-bitcoin on ethereum
+2025-03-19 21:25:27,046 - INFO - Fetching onchain price for token 0x2260fac5e5542a773aa44fbcfedf7c193bc2c599 on ethereum
+2025-03-19 21:25:29,477 - WARNING - Could not get price for wrapped-bitcoin on ethereum/uniswap-v3 through available endpoints
+2025-03-19 21:25:29,478 - INFO - Fetching wrapped-bitcoin price from balancer on ethereum
+2025-03-19 21:25:29,479 - INFO - Fetching onchain price for token 0x2260fac5e5542a773aa44fbcfedf7c193bc2c599 on ethereum
+2025-03-19 21:25:29,479 - WARNING - Could not get price for wrapped-bitcoin on ethereum/balancer through available endpoints
+2025-03-19 21:25:29,480 - INFO - Fetching wrapped-bitcoin price from sushiswap on ethereum
+2025-03-19 21:25:29,480 - INFO - Fetching onchain price for token 0x2260fac5e5542a773aa44fbcfedf7c193bc2c599 on ethereum
+2025-03-19 21:25:29,481 - WARNING - Could not get price for wrapped-bitcoin on ethereum/sushiswap through available endpoints
+2025-03-19 21:25:29,481 - INFO - Fetching wrapped-bitcoin price from gmx on arbitrum
+2025-03-19 21:25:29,482 - INFO - Fetching contract address for wrapped-bitcoin on arbitrum
+2025-03-19 21:25:29,482 - WARNING - No contract address found for wrapped-bitcoin on arbitrum
+2025-03-19 21:25:29,482 - INFO - Fetching wrapped-bitcoin price from uniswap-v3 on arbitrum
+2025-03-19 21:25:29,483 - INFO - Fetching wrapped-bitcoin price from camelot on arbitrum
+2025-03-19 21:25:29,483 - INFO - Fetching wrapped-bitcoin price from velodrome on optimism
+2025-03-19 21:25:29,483 - INFO - Fetching contract address for wrapped-bitcoin on optimism
+2025-03-19 21:25:29,484 - WARNING - No contract address found for wrapped-bitcoin on optimism
+2025-03-19 21:25:29,484 - INFO - Fetching wrapped-bitcoin price from uniswap-v3 on optimism
+2025-03-19 21:25:29,485 - INFO - Fetching wrapped-bitcoin price from synthetix on optimism
+2025-03-19 21:25:29,485 - INFO - Fetching wrapped-bitcoin price from uniswap-v3 on base
+2025-03-19 21:25:29,485 - INFO - Fetching contract address for wrapped-bitcoin on base
+2025-03-19 21:25:29,486 - WARNING - No contract address found for wrapped-bitcoin on base
+2025-03-19 21:25:29,486 - INFO - Fetching wrapped-bitcoin price from aerodrome on base
+2025-03-19 21:25:29,486 - INFO - Fetching wrapped-bitcoin price from leetswap on base
+2025-03-19 21:25:29,487 - INFO - Fetching wrapped-bitcoin price from uniswap-v3 on bob-network
+2025-03-19 21:25:29,487 - INFO - Fetching contract address for wrapped-bitcoin on bob-network
+2025-03-19 21:25:29,487 - WARNING - No contract address found for wrapped-bitcoin on bob-network
+2025-03-19 21:25:29,488 - INFO - Fetching USD price for lombard-staked-btc
+2025-03-19 21:25:32,211 - INFO - Fetching lombard-staked-btc price from uniswap-v3 on ethereum
+2025-03-19 21:25:32,212 - INFO - Fetching contract address for lombard-staked-btc on ethereum
+2025-03-19 21:25:34,582 - INFO - Fetching onchain price for token 0x8236a87084f8b84306f72007f36f2618a5634494 on ethereum
+2025-03-19 21:25:36,947 - WARNING - Could not get price for lombard-staked-btc on ethereum/uniswap-v3 through available endpoints
+2025-03-19 21:25:36,948 - INFO - Fetching lombard-staked-btc price from balancer on ethereum
+2025-03-19 21:25:36,949 - INFO - Fetching onchain price for token 0x8236a87084f8b84306f72007f36f2618a5634494 on ethereum
+2025-03-19 21:25:36,949 - WARNING - Could not get price for lombard-staked-btc on ethereum/balancer through available endpoints
+2025-03-19 21:25:36,950 - INFO - Fetching lombard-staked-btc price from sushiswap on ethereum
+2025-03-19 21:25:36,950 - INFO - Fetching onchain price for token 0x8236a87084f8b84306f72007f36f2618a5634494 on ethereum
+2025-03-19 21:25:36,950 - WARNING - Could not get price for lombard-staked-btc on ethereum/sushiswap through available endpoints
+2025-03-19 21:25:36,950 - INFO - Fetching lombard-staked-btc price from gmx on arbitrum
+2025-03-19 21:25:36,951 - INFO - Fetching contract address for lombard-staked-btc on arbitrum
+2025-03-19 21:25:36,951 - WARNING - No contract address found for lombard-staked-btc on arbitrum
+2025-03-19 21:25:36,951 - INFO - Fetching lombard-staked-btc price from uniswap-v3 on arbitrum
+2025-03-19 21:25:36,951 - INFO - Fetching lombard-staked-btc price from camelot on arbitrum
+2025-03-19 21:25:36,952 - INFO - Fetching lombard-staked-btc price from velodrome on optimism
+2025-03-19 21:25:36,952 - INFO - Fetching contract address for lombard-staked-btc on optimism
+2025-03-19 21:25:36,952 - WARNING - No contract address found for lombard-staked-btc on optimism
+2025-03-19 21:25:36,952 - INFO - Fetching lombard-staked-btc price from uniswap-v3 on optimism
+2025-03-19 21:25:36,953 - INFO - Fetching lombard-staked-btc price from synthetix on optimism
+2025-03-19 21:25:36,953 - INFO - Fetching lombard-staked-btc price from uniswap-v3 on base
+2025-03-19 21:25:36,953 - INFO - Fetching contract address for lombard-staked-btc on base
+2025-03-19 21:25:36,954 - INFO - Fetching onchain price for token 0xecac9c5f704e954931349da37f60e39f515c11c1 on base
+2025-03-19 21:25:39,450 - WARNING - Could not get price for lombard-staked-btc on base/uniswap-v3 through available endpoints
+2025-03-19 21:25:39,451 - INFO - Fetching lombard-staked-btc price from aerodrome on base
+2025-03-19 21:25:39,451 - INFO - Fetching onchain price for token 0xecac9c5f704e954931349da37f60e39f515c11c1 on base
+2025-03-19 21:25:39,451 - WARNING - Could not get price for lombard-staked-btc on base/aerodrome through available endpoints
+2025-03-19 21:25:39,451 - INFO - Fetching lombard-staked-btc price from leetswap on base
+2025-03-19 21:25:39,452 - INFO - Fetching onchain price for token 0xecac9c5f704e954931349da37f60e39f515c11c1 on base
+2025-03-19 21:25:39,452 - WARNING - Could not get price for lombard-staked-btc on base/leetswap through available endpoints
+2025-03-19 21:25:39,452 - INFO - Fetching lombard-staked-btc price from uniswap-v3 on bob-network
+2025-03-19 21:25:39,452 - INFO - Fetching contract address for lombard-staked-btc on bob-network
+2025-03-19 21:25:39,452 - WARNING - No contract address found for lombard-staked-btc on bob-network
+2025-03-19 21:25:39,453 - INFO - Fetching USD price for ethereum
+2025-03-19 21:25:41,799 - INFO - Fetching ethereum price from uniswap-v3 on ethereum
+2025-03-19 21:25:41,800 - INFO - Fetching contract address for ethereum on ethereum
+2025-03-19 21:25:44,175 - WARNING - No contract address found for ethereum on ethereum
+2025-03-19 21:25:44,176 - INFO - Fetching ethereum price from balancer on ethereum
+2025-03-19 21:25:44,176 - INFO - Fetching ethereum price from sushiswap on ethereum
+2025-03-19 21:25:44,177 - INFO - Fetching ethereum price from gmx on arbitrum
+2025-03-19 21:25:44,177 - INFO - Fetching contract address for ethereum on arbitrum
+2025-03-19 21:25:44,178 - WARNING - No contract address found for ethereum on arbitrum
+2025-03-19 21:25:44,178 - INFO - Fetching ethereum price from uniswap-v3 on arbitrum
+2025-03-19 21:25:44,178 - INFO - Fetching ethereum price from camelot on arbitrum
+2025-03-19 21:25:44,179 - INFO - Fetching ethereum price from velodrome on optimism
+2025-03-19 21:25:44,179 - INFO - Fetching contract address for ethereum on optimism
+2025-03-19 21:25:44,180 - WARNING - No contract address found for ethereum on optimism
+2025-03-19 21:25:44,180 - INFO - Fetching ethereum price from uniswap-v3 on optimism
+2025-03-19 21:25:44,180 - INFO - Fetching ethereum price from synthetix on optimism
+2025-03-19 21:25:44,181 - INFO - Fetching ethereum price from uniswap-v3 on base
+2025-03-19 21:25:44,181 - INFO - Fetching contract address for ethereum on base
+2025-03-19 21:25:44,182 - WARNING - No contract address found for ethereum on base
+2025-03-19 21:25:44,182 - INFO - Fetching ethereum price from aerodrome on base
+2025-03-19 21:25:44,182 - INFO - Fetching ethereum price from leetswap on base
+2025-03-19 21:25:44,183 - INFO - Fetching ethereum price from uniswap-v3 on bob-network
+2025-03-19 21:25:44,183 - INFO - Fetching contract address for ethereum on bob-network
+2025-03-19 21:25:44,183 - WARNING - No contract address found for ethereum on bob-network
+2025-03-19 21:25:44,184 - INFO - Fetching USD price for tether
+2025-03-19 21:25:46,511 - INFO - Fetching tether price from uniswap-v3 on ethereum
+2025-03-19 21:25:46,511 - INFO - Fetching contract address for tether on ethereum
+2025-03-19 21:25:49,033 - INFO - Fetching onchain price for token 0xdac17f958d2ee523a2206206994597c13d831ec7 on ethereum
+2025-03-19 21:25:51,506 - WARNING - Could not get price for tether on ethereum/uniswap-v3 through available endpoints
+2025-03-19 21:25:51,507 - INFO - Fetching tether price from balancer on ethereum
+2025-03-19 21:25:51,507 - INFO - Fetching onchain price for token 0xdac17f958d2ee523a2206206994597c13d831ec7 on ethereum
+2025-03-19 21:25:51,507 - WARNING - Could not get price for tether on ethereum/balancer through available endpoints
+2025-03-19 21:25:51,508 - INFO - Fetching tether price from sushiswap on ethereum
+2025-03-19 21:25:51,508 - INFO - Fetching onchain price for token 0xdac17f958d2ee523a2206206994597c13d831ec7 on ethereum
+2025-03-19 21:25:51,508 - WARNING - Could not get price for tether on ethereum/sushiswap through available endpoints
+2025-03-19 21:25:51,508 - INFO - Fetching tether price from gmx on arbitrum
+2025-03-19 21:25:51,509 - INFO - Fetching contract address for tether on arbitrum
+2025-03-19 21:25:51,509 - WARNING - No contract address found for tether on arbitrum
+2025-03-19 21:25:51,509 - INFO - Fetching tether price from uniswap-v3 on arbitrum
+2025-03-19 21:25:51,509 - INFO - Fetching tether price from camelot on arbitrum
+2025-03-19 21:25:51,510 - INFO - Fetching tether price from velodrome on optimism
+2025-03-19 21:25:51,510 - INFO - Fetching contract address for tether on optimism
+2025-03-19 21:25:51,510 - WARNING - No contract address found for tether on optimism
+2025-03-19 21:25:51,510 - INFO - Fetching tether price from uniswap-v3 on optimism
+2025-03-19 21:25:51,511 - INFO - Fetching tether price from synthetix on optimism
+2025-03-19 21:25:51,511 - INFO - Fetching tether price from uniswap-v3 on base
+2025-03-19 21:25:51,511 - INFO - Fetching contract address for tether on base
+2025-03-19 21:25:51,511 - WARNING - No contract address found for tether on base
+2025-03-19 21:25:51,511 - INFO - Fetching tether price from aerodrome on base
+2025-03-19 21:25:51,512 - INFO - Fetching tether price from leetswap on base
+2025-03-19 21:25:51,512 - INFO - Fetching tether price from uniswap-v3 on bob-network
+2025-03-19 21:25:51,512 - INFO - Fetching contract address for tether on bob-network
+2025-03-19 21:25:51,512 - WARNING - No contract address found for tether on bob-network
+2025-03-19 21:25:51,512 - INFO - Fetching USD price for usd-coin
+2025-03-19 21:25:53,831 - INFO - Fetching usd-coin price from uniswap-v3 on ethereum
+2025-03-19 21:25:53,832 - INFO - Fetching contract address for usd-coin on ethereum
+2025-03-19 21:25:56,900 - INFO - Fetching onchain price for token 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 on ethereum
+2025-03-19 21:25:59,246 - WARNING - Could not get price for usd-coin on ethereum/uniswap-v3 through available endpoints
+2025-03-19 21:25:59,246 - INFO - Fetching usd-coin price from balancer on ethereum
+2025-03-19 21:25:59,247 - INFO - Fetching onchain price for token 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 on ethereum
+2025-03-19 21:25:59,247 - WARNING - Could not get price for usd-coin on ethereum/balancer through available endpoints
+2025-03-19 21:25:59,247 - INFO - Fetching usd-coin price from sushiswap on ethereum
+2025-03-19 21:25:59,247 - INFO - Fetching onchain price for token 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 on ethereum
+2025-03-19 21:25:59,247 - WARNING - Could not get price for usd-coin on ethereum/sushiswap through available endpoints
+2025-03-19 21:25:59,248 - INFO - Fetching usd-coin price from gmx on arbitrum
+2025-03-19 21:25:59,248 - INFO - Fetching contract address for usd-coin on arbitrum
+2025-03-19 21:25:59,248 - WARNING - No contract address found for usd-coin on arbitrum
+2025-03-19 21:25:59,248 - INFO - Fetching usd-coin price from uniswap-v3 on arbitrum
+2025-03-19 21:25:59,249 - INFO - Fetching usd-coin price from camelot on arbitrum
+2025-03-19 21:25:59,249 - INFO - Fetching usd-coin price from velodrome on optimism
+2025-03-19 21:25:59,249 - INFO - Fetching contract address for usd-coin on optimism
+2025-03-19 21:25:59,249 - WARNING - No contract address found for usd-coin on optimism
+2025-03-19 21:25:59,249 - INFO - Fetching usd-coin price from uniswap-v3 on optimism
+2025-03-19 21:25:59,250 - INFO - Fetching usd-coin price from synthetix on optimism
+2025-03-19 21:25:59,250 - INFO - Fetching usd-coin price from uniswap-v3 on base
+2025-03-19 21:25:59,250 - INFO - Fetching contract address for usd-coin on base
+2025-03-19 21:25:59,250 - INFO - Fetching onchain price for token 0x833589fcd6edb6e08f4c7c32d4f71b54bda02913 on base
+2025-03-19 21:26:01,549 - WARNING - Could not get price for usd-coin on base/uniswap-v3 through available endpoints
+2025-03-19 21:26:01,551 - INFO - Fetching usd-coin price from aerodrome on base
+2025-03-19 21:26:01,551 - INFO - Fetching onchain price for token 0x833589fcd6edb6e08f4c7c32d4f71b54bda02913 on base
+2025-03-19 21:26:01,551 - WARNING - Could not get price for usd-coin on base/aerodrome through available endpoints
+2025-03-19 21:26:01,552 - INFO - Fetching usd-coin price from leetswap on base
+2025-03-19 21:26:01,552 - INFO - Fetching onchain price for token 0x833589fcd6edb6e08f4c7c32d4f71b54bda02913 on base
+2025-03-19 21:26:01,552 - WARNING - Could not get price for usd-coin on base/leetswap through available endpoints
+2025-03-19 21:26:01,552 - INFO - Fetching usd-coin price from uniswap-v3 on bob-network
+2025-03-19 21:26:01,553 - INFO - Fetching contract address for usd-coin on bob-network
+2025-03-19 21:26:01,553 - WARNING - No contract address found for usd-coin on bob-network
+2025-03-19 21:26:01,555 - WARNING - No price data found
+2025-03-19 21:26:01,671 - INFO - Saved 16 API responses to cache

@@ -1,0 +1,124 @@
+
+    <html>
+    <head>
+        <title>Price Analysis Report</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f5f5f5; }
+            .visualization { margin: 20px 0; }
+            h2 { color: #333; }
+        </style>
+    </head>
+    <body>
+        <h1>Price Analysis Report</h1>
+        <p>Generated on: 2025-03-19 20:22:22 UTC</p>
+        
+        <h2>Price Analysis Results</h2>
+        <table border="1" class="dataframe dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>token</th>
+      <th>network</th>
+      <th>dex</th>
+      <th>price_usd</th>
+      <th>reference_price</th>
+      <th>price_difference_percent</th>
+      <th>timestamp</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>wrapped-bitcoin</td>
+      <td>ethereum</td>
+      <td>uniswap-v3</td>
+      <td>65000.500</td>
+      <td>65000.0</td>
+      <td>0.0077</td>
+      <td>2025-03-19T20:22:22.685615</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>wrapped-bitcoin</td>
+      <td>arbitrum</td>
+      <td>uniswap-v3</td>
+      <td>64900.750</td>
+      <td>65000.0</td>
+      <td>-0.1530</td>
+      <td>2025-03-19T20:22:22.685615</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>ethereum</td>
+      <td>ethereum</td>
+      <td>balancer</td>
+      <td>3000.250</td>
+      <td>3010.0</td>
+      <td>-0.3240</td>
+      <td>2025-03-19T20:22:22.685615</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>ethereum</td>
+      <td>optimism</td>
+      <td>velodrome</td>
+      <td>3025.500</td>
+      <td>3010.0</td>
+      <td>0.5150</td>
+      <td>2025-03-19T20:22:22.685615</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>tether</td>
+      <td>ethereum</td>
+      <td>sushiswap</td>
+      <td>1.001</td>
+      <td>1.0</td>
+      <td>0.1000</td>
+      <td>2025-03-19T20:22:22.685615</td>
+    </tr>
+  </tbody>
+</table>
+        
+        <h2>Arbitrage Opportunities</h2>
+        <table border="1" class="dataframe dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>token</th>
+      <th>buy_network</th>
+      <th>buy_dex</th>
+      <th>buy_price</th>
+      <th>sell_network</th>
+      <th>sell_dex</th>
+      <th>sell_price</th>
+      <th>profit_percent</th>
+      <th>timestamp</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>ethereum</td>
+      <td>ethereum</td>
+      <td>uniswap-v3</td>
+      <td>3000.0</td>
+      <td>optimism</td>
+      <td>velodrome</td>
+      <td>3045.0</td>
+      <td>1.5</td>
+      <td>2025-03-19T20:22:22.686636</td>
+    </tr>
+  </tbody>
+</table>
+        
+        <h2>Visualizations</h2>
+        <div class="visualization">
+            
+        </div>
+    </body>
+    </html>
+    

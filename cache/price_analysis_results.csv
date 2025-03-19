@@ -1,0 +1,6 @@
+token,network,dex,price_usd,reference_price,price_difference_percent,timestamp
+wrapped-bitcoin,ethereum,uniswap-v3,65000.5,65000.0,0.0077,2025-03-19T20:25:03.020421
+wrapped-bitcoin,arbitrum,uniswap-v3,64900.75,65000.0,-0.153,2025-03-19T20:25:03.020421
+ethereum,ethereum,balancer,3000.25,3010.0,-0.324,2025-03-19T20:25:03.020421
+ethereum,optimism,velodrome,3025.5,3010.0,0.515,2025-03-19T20:25:03.020421
+tether,ethereum,sushiswap,1.001,1.0,0.1,2025-03-19T20:25:03.020421

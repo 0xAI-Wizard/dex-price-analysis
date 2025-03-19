@@ -1,40 +1,44 @@
-# DEX Price Analysis Tool
+# Crypto Price Analysis Tool
 
-This tool analyzes price differences of wBTC, LBTC, and USDT across decentralized exchanges (DEXs) on multiple blockchain networks (Ethereum, Binance Smart Chain, and Polygon).
+A Python-based tool for analyzing cryptocurrency price discrepancies across different exchanges and networks. This tool leverages the CoinGecko Pro API to fetch real-time price data.
 
 ## Features
 
-- Fetches and compares token prices across multiple DEXs and networks
-- Calculates price statistics (mean price and maximum difference)
-- Implements rate limiting and error handling
-- Provides detailed logging for troubleshooting
+- Fetches token prices from CoinGecko's official API
+- Analyzes price differences across multiple networks and DEXs
+- Calculates statistics on price discrepancies
+- Saves results to CSV for further analysis
+- Tracks API request usage
 
-## Prerequisites
+## Setup
 
-- Python 3.8 or higher
-- CoinGecko API Demo key (get one at https://www.coingecko.com/en/api)
+### 1. Install Dependencies
 
-## Installation
+```bash
+pip install -r requirements.txt
+```
 
-1. Clone this repository
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Set up environment variables:
-   - Create a `.env` file in the project root (or copy the template)
-   - Add your CoinGecko API key to the `.env` file:
-     ```
-     COINGECKO_API_KEY=your_demo_api_key
-     ```
+### 2. Set Up API Key
 
-## Configuration
+Create a `.env` file in the root directory with your CoinGecko Pro API key:
 
-The script uses environment variables for sensitive information like API keys. The `.env` file is included in `.gitignore` to prevent accidental exposure of your API key.
+```
+COINGECKO_API_KEY_PRO=your_api_key_here
+```
+
+You can get a CoinGecko Pro API key by subscribing to one of their paid plans.
+
+### 3. Configure Tokens and Networks
+
+Edit the `config.py` file to specify:
+
+- Tokens you want to analyze
+- Networks to check
+- DEXs per network
 
 ## Usage
 
-Run the script:
+Run the script with:
 
 ```bash
 python price_analysis.py
@@ -42,59 +46,24 @@ python price_analysis.py
 
 The script will:
 
-1. Fetch token addresses and base token prices
-2. Query pool data from various DEXs
-3. Calculate and display price analysis results
-4. Show statistics for each token
+1. Fetch current token prices from CoinGecko
+2. Check prices across configured networks and DEXs
+3. Calculate price differences
+4. Display results in the console
+5. Save results to `cache/price_analysis_results.csv`
 
-## Output Example
+## Data Storage
 
-```
-Price Analysis Results:
-   token         network           dex     price_usd
-    wbtc       ethereum    uniswap_v2     60000.50
-    wbtc       ethereum     sushiswap     59998.75
-    wbtc  binance-smart-chain  pancakeswap_v2     60002.10
-    wbtc        polygon     quickswap     60001.20
-    lbtc       ethereum    uniswap_v2     59800.30
-    lbtc        polygon     quickswap     59802.50
-  tether       ethereum    uniswap_v2         1.001
-  tether  binance-smart-chain  pancakeswap_v2         0.999
+- All results are saved to `cache/price_analysis_results.csv`
+- API request count is tracked in `cache/request_count.json`
 
-Price Statistics:
-WBTC:
-Mean Price: $60000.6375
-Max Difference: $3.3500
+## Troubleshooting
 
-LBTC:
-Mean Price: $59801.4000
-Max Difference: $2.2000
-
-TETHER:
-Mean Price: $1.0000
-Max Difference: $0.0020
-```
-
-## Rate Limiting
-
-The script implements rate limiting to comply with CoinGecko's Demo API limits:
-
-- Maximum 30 calls per minute
-- 2-second delay between API calls
-
-## Error Handling
-
-The script includes comprehensive error handling:
-
-- API request failures
-- Invalid responses
-- Missing or invalid pool data
-- Zero/negative reserves
-
-Errors are logged with context for easy troubleshooting.
+- Check your API key is valid and has sufficient credits
+- Ensure you're not exceeding rate limits
+- For network or DEX-specific issues, check if they are supported by CoinGecko
 
 ## Notes
 
-- This is a one-time snapshot tool and does not provide real-time price updates
-- Price calculations use the highest liquidity pools for accuracy
-- All timestamps are in UTC
+- The tool uses CoinGecko's new onchain endpoints which may have different access requirements based on your subscription plan
+- Some networks may require specific identifiers that differ from their common names
